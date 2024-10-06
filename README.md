@@ -7,3 +7,15 @@ LEFT, RIGHT AND MID.
 =RIGHT( text, number_character). The Right function also has two arguments,
 =MID( text, start-number, number_character). The MID function has three arguments
 Note: text means the particular text details, start_number is the character you want to start from while Number_character is the number of characters you are looking for.
+###VLOOKUP FUNCTION AND CELL REFERENCING
+####VLOOKUP 
+This is an Excel function for bringing an exact match. It has four arguments, three of the arguments are mandatory and one is optional.
+=VLOOKUP( lookup_value, Table_array,Column_index_num, Range_lookup) note the Range_lookup is the optinal argument.
+Note: lookup_value this is the column that is common on both tables,
+      Table_array is the table that has what you want to return something from i.e whatever you are looking for,
+      Column_index_Num is asking what position the column you want to fetch from your table array,
+      Range_lookup ( Exact, approximate) False gives you the exact match.
+####CELL REFERENCING
+This is how you want Excel to treat what you are referencing. It implies how you result moves from with the actual cell you are fitting into. There are two types of cell referencing ( Absolute and Relative).
+Absolute Referencing: This is a way of locking your cell so that it doesn't change
+    
